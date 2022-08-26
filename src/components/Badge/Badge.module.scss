@@ -1,0 +1,75 @@
+@import 'src/styles/colors';
+
+.badge {
+  padding: 5px 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 20px;
+  border-radius: 4px;
+}
+
+.success {
+  color: $grey-white;
+  background-color: $positive-text;
+}
+
+.success_outline {
+  color: $positive-60;
+  background-color: $positive-10;
+}
+
+.success_naked {
+  color: $positive-60;
+}
+
+.warning {
+  color: $warning-10;
+  background-color: $warning-50;
+}
+
+.warning_outline {
+  color: $warning-text;
+  background-color: $warning-10;
+}
+
+.warning_naked {
+  color: $warning-text;
+}
+
+.error {
+  color: $negative-10;
+  background-color: $negative-text;
+}
+
+.error_outline {
+  color: $negative-60;
+  background-color: $negative-10;
+}
+
+.error_naked {
+  color: $negative-60;
+}
+
+.black {
+  color: $grey-white;
+  background-color: $grey-80;
+}
+
+.black_outline {
+  color: $grey-80;
+  background-color: $grey-10;
+}
+
+.black_naked {
+  color: $grey-80;
+}
+
+.rounded {
+  border-radius: 20px;
+}
+
+.margin {
+  margin-right: 4px;
+}

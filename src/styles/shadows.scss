@@ -1,0 +1,15 @@
+@mixin shadow-low {
+  box-shadow: 0px 2px 8px rgba(15, 15, 15, 0.06);
+}
+
+@mixin shadow-medium {
+  box-shadow: 0px 4px 12px rgba(15, 15, 15, 0.08);
+}
+
+@mixin shadow-high {
+  box-shadow: 0px 4px 20px rgba(15, 15, 15, 0.08);
+}
+
+@mixin shadow-high-up {
+  box-shadow: 0px -4px 20px rgba(15, 15, 15, 0.12);
+}
