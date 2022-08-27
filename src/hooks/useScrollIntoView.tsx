@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 
 const useScrollIntoView = (options: any) => {
   const { scrollIntoView = false, ref } = options;

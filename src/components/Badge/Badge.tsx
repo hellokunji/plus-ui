@@ -4,14 +4,14 @@ import { BadgeVariants } from '../../primitives/BadgeTypes';
 import './Badge.module.scss';
 
 type BadgeProps = {
-  variant: BadgeVariants;
+  variant: keyof keyof BadgeVariants;
   label?: string;
   icon?: string;
   isRectangle?: boolean;
 };
 
 export const Badge = ({
-  variant = BadgeVariants.Success,
+  variant = 'success',
   label,
   icon,
   isRectangle = false,

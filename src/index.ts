@@ -1,4 +1,6 @@
 export { default as Badge } from '../src/components/Badge';
+export { default as Card } from '../src/components/Card';
+export * from '../src/primitives/Color';
 
 // import * as React from 'react'
 // import './styles.scss'
